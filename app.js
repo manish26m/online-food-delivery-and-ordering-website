@@ -30,6 +30,10 @@ function login(){
     alert("Login Successful!!")
     loginForm.classList.remove("active");
 }
+function cancel(){
+    
+    loginForm.classList.remove("active");
+}
 function dine(){
     alert("Order Placed!!")
     loginForm.classList.remove("active");
